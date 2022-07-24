@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+}
+.container{
+  width:"100%";
+  height:"90%";
+  border:"1px solid red";
+  background-color: aqua;
+  display: flex;
+}
+.first{
+  background-color:cornflowerblue;
+  padding: 15%;
+}
+.middle{
+  background-color: rgb(255, 196, 0);
+  padding:20%;
+}
+.last{
+  background-color: brown;
+  padding:15%;
+}
+@media only screen and (max-width:800px){
+  .container{
+    display: block;
+  }
+}
